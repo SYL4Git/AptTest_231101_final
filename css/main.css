@@ -1,0 +1,472 @@
+@charset "utf-8";
+/* head strt */
+.headerIn{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+/* hLogo */
+.hLogo a{
+    width: 142px;
+    height: 28px;
+    display: block;
+    background-image: url(../img/head/visitUlsan_logo_color.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -99999px;
+}
+/* hNav */
+.hNav ul{
+    display: flex;
+    /* width: 696px; */
+}
+.hNav li a{
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+.hNav li{
+    margin-right: 80px;
+}
+.hNav li:last-child{
+    margin-right: 0;
+}
+/* hUtil */
+.hUtil{
+    display: flex;
+}
+/* hSearch */
+.hSearch{
+    margin-right: 70px;
+}
+.hSearch p{
+    display: block;
+    width: 27px;
+    height: 22px;
+    background-image: url(../img/head/search.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+/* hLanguage */
+.hLanguage button{
+    display: flex;
+}
+.hLanguage p{
+    vertical-align: top;
+    align-items: center;
+    margin-right: 10px;
+}
+.hLanguage p:last-child{
+    margin-right: 0;
+}
+.hLanguage .flag{
+    display: block;
+    width: 25px;
+    height: 27px;
+    background-image: url(../img/head/flag-for-south-korea.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+.hLanguage .lang{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+.hLanguage .down{
+    width: 8px;
+    height: 5px;
+    margin-top: 7px;
+    background-image: url(../img/head/arrow_down.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+/* head fin */
+/* m1 strt */
+.m1{
+    margin-bottom: 100px;
+}
+.m1In{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -185px;
+}
+/* m1txt */
+.m1txt{
+    position: relative;
+    margin-bottom: 90px;
+}
+.m1txt p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 0 0 2px black;
+    margin-bottom: 20px;
+}
+.m1txt .name{
+    font-size: 40px;
+}
+.m1More{
+    position: absolute;
+    top: 50px;
+    left: 240px;
+}
+.m1More p{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline white;
+}
+/* m1Pager */
+.m1Pager{
+    display: flex;
+    vertical-align: top;
+}
+.m1Pager p{
+    font-size: 18px;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+.left, .right{
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    opacity: .3;
+    text-indent: -99999px;
+}
+.m1Pager .left{
+    background-image: url(../img/m1/arrw_L.png);
+    margin-right: 15px;
+}
+.m1Pager .right{
+    background-image: url(../img/m1/arrw_R.png);
+    margin-left: 15px;
+}
+.on{
+    opacity: 1;
+}
+/* m1 fin */
+/* m2 strt */
+.m2{
+    margin-bottom: 100px;
+}
+.m2In{
+    position: relative;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* m2title */
+.m2In .title{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+/* m2recom */
+.Recom ul{
+    display: flex;
+    justify-content: center;
+}
+.Recom li{
+    width: 336px;
+    margin-right: 83px;
+}
+.Recom li:last-child{
+    margin-right: 0;
+}
+.Recom img{
+    width: 100%;
+    height: 197px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.Recom p{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Recom .address{
+    font-size: 16px;
+}
+/* m2slider */
+.m2Slider .left, .m2Slider .right{
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+.m2Slider .left{
+    left: 0;
+    background-image: url(../img/m2/arrow_L.png);
+}
+.m2Slider .on{
+    right: 0;
+    background-image: url(../img/m2/arrw_R.png);
+}
+/* m3 strt */
+.m3{
+    margin-bottom: 100px;
+}
+.m3In{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 500;
+}
+.more{
+    position: absolute;
+    top: 16px;
+    right: 0;
+}
+.more a{
+    font-size: 16px;
+    color: black;
+    padding-right: 56px;
+    background-image: url(../img/m4/plus.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+/* m4 strt */
+.m4{
+    margin-bottom: 100px;
+}
+.m4In{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* m5 strt */
+.m5{
+    margin-bottom: 100px;
+}
+.m5In{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.m5Title{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 500;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+/* info */
+.m5Info{
+    position: relative;
+    /* width: 1220px; */
+    margin: 0 70px;
+    border: 1px solid #e4e4e4
+}
+.infoIn{
+    margin: 0 140px;
+}
+.infoIn ul{
+    display: flex;
+    justify-content: space-between;
+}
+.infoIn li{
+    position: relative;
+    margin: 50px 80px 40px 80px;
+    text-align: center;
+}
+.infoIn li::after{
+    position: absolute;
+    top: -10px;
+    right: -75px;
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 140px;
+    background-color: #e4e4e4;
+}
+.infoIn li:last-child::after{
+    display: none;
+}
+.infoImg{
+    width: 91px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -99999px;
+}
+.infoName{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin-right: 6px;
+}
+.infoImg1{
+    background-image: url(../img/m5/book.png);
+}
+.infoImg2{
+    background-image: url(../img/m5/bus.png);
+}
+.infoImg3{
+    background-image: url(../img/m5/foot.png);
+}
+.infoImg4{
+    background-image: url(../img/m5/safety.png);
+}
+/* infopager */
+.infoPager .left, .infoPager .right{
+    position: absolute;
+    width: 46px;
+    height: 47px;
+    top: 50%;
+    margin-top: -23px;
+    opacity: 1;    
+}
+.infoPager .left{
+    left: -23px;
+    background-image: url(../img/m5/Button_Previous.png);
+}
+.infoPager .right{
+    right: -23px;
+    background-image: url(../img/m5/Button_Next.png);
+}
+/* footer */
+.footerIn{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fCntntIn{
+    margin-left: 235px;
+}
+/* fNav */
+.fNav{
+    margin-bottom: 50px;
+}
+.fNav ul{
+    display: flex;
+}
+.fNav button::before{
+    display: inline-block;
+    content: "";
+    vertical-align: top;
+    width: 2px;
+    height: 30px;
+    margin: -5px 20px 0 20px;
+    background-color: #5c5f64;
+}
+.fNav li:last-child button::after{
+    display: inline-block;
+    content: "";
+    vertical-align: top;
+    width: 2px;
+    height: 30px;
+    margin-top: -5px;
+    margin-left: 20px;
+    background-color: #5c5f64;
+}
+.fNav li:first-child button::before{
+    margin-left: 0;
+}
+.fNav .menuName{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin-right: 70px;
+}
+.fNav .psuedo{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: top;
+    margin-top: -3px;
+    background-image: url(../img/footer/button.png);
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+/* fInfo */
+.fInfo{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+/* fInfoIn */
+.fInfoIn{
+    position: relative;
+}
+.fInfo .fInfoIn a{
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+/* line1 */
+.fInfo .line1{
+    margin-bottom: 20px;
+}
+.fInfo .line1 ul{
+    display: flex;
+}
+.fInfo .privacy a{
+    color: #0079d7;
+}
+.fInfo .line1 a::after{
+    display: inline-block;
+    content: "";
+    width: 2px;
+    height: 10px;
+    vertical-align: top;
+    margin: 6px 10px 0 10px;
+    background-color: #5c5f64;
+}
+.fInfo .line1 li:last-child a::after{
+    display: none;
+}
+/* line2 */
+.fInfoIn .line2{
+    margin-bottom: 65px;
+}
+.fInfoIn .line2 p{
+    margin-bottom: 5px;
+}
+.fInfoIn .phone{
+    font-weight: 700;
+    font-size: 18px;
+}
+/* fLogo */
+.fInfo .fLogo a{
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+}
+.fInfo .fLogo .logo1{
+    width: 142px;
+    height: 28px;
+    margin-right: 90px;
+    background-image: url(../img/footer/visitUlsan_logo.png);
+}
+.fInfo .fLogo .logo2{
+    width: 88px;
+    height: 25px;
+    background-image: url(../img/footer/ulsanLogo.png);
+}
